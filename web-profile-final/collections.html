@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Collections — Alberik Stephan</title>
+  <meta name="description" content="Projects, photographs, and NFT collection by Alberik Stephan.">
+  <link rel="icon" type="image/svg+xml" href="image/Icon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER (sama di semua halaman) ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Alberik Stephan</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="collections.html" aria-current="page">Collections</a>
+        <a href="article.html">Article</a>
+         <a class="btn btn-dark nav-cta" href="https://www.linkedin.com/in/alberik-stephan-279286261/">Lets Connect! <svg class="icon" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <div class="container">
+        <p class="eyebrow">My Collections</p>
+        <h1>Work &amp; collections</h1>
+        <p class="hero-roles">Projects I build, photos I take, and digital art I collect.</p>
+      </div>
+    </section>
+
+    <!-- ===== 01 PROJECT SHOWCASE ===== -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">01</p>
+            <h2>Project Showcase</h2>
+          </div>
+          <p>One project for each role. Click a card to read the full story.</p>
+        </div>
+        <div class="grid grid-4">
+          <a class="card project-card" href="project-it-operations-handbook.html">
+            <div class="thumb"><img src="./image/Hotel IT Operations Mascot.png" alt="Thumbnail of IT Operations Handbook" loading="lazy"></div>
+            <div class="card-body">
+              <span class="eyebrow">IT Professional</span>
+              <h3>IT Operations Efficiency</h3>
+              <p>Checklists and documentation for keeping hotel systems reliable.</p>
+              <span class="card-link">View details <svg class="icon" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </a>
+          <a class="card project-card" href="project-personal-web-profile.html">
+            <div class="thumb"><img src="./image/Cozy Cyberpunk Vibe Coder Workspace.png" alt="Thumbnail of Personal Web Profile" loading="lazy"></div>
+            <div class="card-body">
+              <span class="eyebrow">Vibe Coder</span>
+              <h3>Personal Web Profile</h3>
+              <p>This website: a static profile built with HTML, CSS, and a little JavaScript.</p>
+              <span class="card-link">View details <svg class="icon" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </a>
+          <a class="card project-card" href="project-bali-photo-series.html">
+            <div class="thumb"><img src="./image/Sunset Photographer by the Cliffs.png" alt="Thumbnail of Bali Photo Series" loading="lazy"></div>
+            <div class="card-body">
+              <span class="eyebrow">Photographer</span>
+              <h3>Bali Photo Series</h3>
+              <p>Landscapes, streets, and golden-hour light around the island.</p>
+              <span class="card-link">View details <svg class="icon" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </a>
+          <a class="card project-card" href="project-ai-experiments.html">
+            <div class="thumb"><img src="./image/AI Blockchain Researcher at Work.png" alt="Thumbnail of AI Experiments Notes" loading="lazy"></div>
+            <div class="card-body">
+              <span class="eyebrow">Researcher</span>
+              <h3>AI Experiments Notes</h3>
+              <p>Notes and findings from testing AI tools in real, everyday work.</p>
+              <span class="card-link">View details <svg class="icon" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 02 PHOTOGRAPH =====
+         Slideshow otomatis. Tambah / hapus slide: salin atau hapus satu blok <figure>.
+         Titik (dot), tombol prev/next, dan loop dibuat otomatis oleh js/common.js. -->
+    <section class="section" id="photograph">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">02</p>
+            <h2>Photograph</h2>
+          </div>
+          <p>Four selected photos, changing automatically every few seconds.</p>
+        </div>
+
+        <div class="carousel" data-carousel data-interval="4500" aria-label="Photo gallery">
+          <div class="carousel-track">
+
+          <figure class="carousel-slide slide-photo">
+            <img src="image/photo-1.svg" alt="Sunrise Ridge">
+            <figcaption><strong>Sunrise Ridge</strong><span>First light touching the hills.</span></figcaption>
+          </figure>
+
+          <figure class="carousel-slide slide-photo">
+            <img src="image/photo-2.svg" alt="Sunset Coast">
+            <figcaption><strong>Sunset Coast</strong><span>An orange sky before the sun goes down.</span></figcaption>
+          </figure>
+
+          <figure class="carousel-slide slide-photo">
+            <img src="image/photo-3.svg" alt="Misty Forest">
+            <figcaption><strong>Misty Forest</strong><span>Thin fog between the trees in the early morning.</span></figcaption>
+          </figure>
+
+          <figure class="carousel-slide slide-photo">
+            <img src="image/photo-4.svg" alt="Starry Night">
+            <figcaption><strong>Starry Night</strong><span>A clear sky far from the city lights.</span></figcaption>
+          </figure>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 03 NFT =====
+         Sama seperti Photograph. Chain boleh berupa link (OpenSea, dll) atau teks biasa. -->
+    <section class="section" id="nft">
+      <div class="container">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">03</p>
+            <h2>NFT</h2>
+          </div>
+          <p>A few pieces from my collection, with their chain and a link to the original item.</p>
+        </div>
+
+        <!-- Auto slide jalan terus satu arah (tanpa tombol / rewind).
+             Cukup isi 4 kartu di bawah. Urutan 1,2,3,4 diulang otomatis oleh js/common.js agar loop tanpa jeda. -->
+        <div class="nft-marquee" aria-label="NFT gallery">
+          <div class="nft-track">
+
+            <figure class="nft-card">
+              <img src="image/1003.png" alt="NFT Orbit #001">
+              <figcaption><strong>Spazio Brothers #1003</strong><a class="chain-link" href="https://opensea.io/item/hyperevm/0x04483d877e95ce182e8595a3f67fdccc7b55a676/1003" target="_blank" rel="noopener">Hyperliquid &#8599;</a></figcaption>
+            </figure>
+            <figure class="nft-card">
+              <img src="image/nft-2.svg" alt="NFT Prisma #014">
+              <figcaption><strong>Prisma #014</strong><a class="chain-link" href="https://opensea.io" target="_blank" rel="noopener">Polygon &#8599;</a></figcaption>
+            </figure>
+            <figure class="nft-card">
+              <img src="image/nft-3.svg" alt="NFT Wave #072">
+              <figcaption><strong>Wave #072</strong><span class="chain-link is-plain">Ethereum</span></figcaption>
+            </figure>
+            <figure class="nft-card">
+              <img src="image/nft-4.svg" alt="NFT Crystal #108">
+              <figcaption><strong>Crystal #108</strong><a class="chain-link" href="https://opensea.io" target="_blank" rel="noopener">Base &#8599;</a></figcaption>
+            </figure>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER (sama di semua halaman) ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h2 class="footer-title">Let&rsquo;s connect.</h2>
+        <p>Have a project, a collaboration idea, or just want to say hi?</p>
+      </div>
+      <!-- Contact button: ganti mailto: dengan link WhatsApp / LinkedIn jika mau -->
+       <a class="btn btn-dark nav-cta" href="https://www.linkedin.com/in/alberik-stephan-279286261/">Lets Connect! <svg class="icon" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+    <div class="container footer-bottom">
+      <span>&copy; <span data-year>2026</span> Alberik Stephan</span>
+      <span>Denpasar, Bali</span>
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+</body>
+</html>

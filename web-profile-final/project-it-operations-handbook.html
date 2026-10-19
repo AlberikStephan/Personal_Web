@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IT Operations Handbook — Alberik Stephan</title>
+  <meta name="description" content="Checklists and documentation for keeping hotel systems reliable.">
+  <link rel="icon" type="image/svg+xml" href="image/Icon.svg">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER (sama di semua halaman) ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Alberik Stephan</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="collections.html" aria-current="page">Collections</a>
+        <a href="article.html">Article</a>
+        <a class="btn btn-dark nav-cta" href="https://www.linkedin.com/in/alberik-stephan-279286261/">Lets Connect! <svg class="icon" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <article class="detail">
+      <a class="back" href="collections.html#projects">&larr; All projects</a>
+
+      <header class="detail-head">
+        <a class="eyebrow" href="role-it-professional.html">IT Professional</a>
+        <h1>IT Operations Efficiency</h1>
+        <p class="lead">Checklists and documentation for keeping hotel systems reliable.</p>
+      </header>
+
+      <img class="detail-cover" src="./image/Wall E x ME.png" alt="Cover of IT Operations Handbook">
+
+      <div class="detail-body">
+        <p>A collection of checklists, runbooks, and troubleshooting notes that help keep day-to-day hotel IT running smoothly.</p>
+        <p class="body-main">My first day at the hotel? Honestly, kind of a shock. I came from a network engineer background, where life was racks, cables, and clean logs. Then I walked into a hotel, and suddenly the culture was completely different. Everything moves fast, everyone needs something right now, and nobody really cares what a VLAN is. They just want things to work.</p>
+        <p class="body-main">There were so many problems and task requests coming in that I barely knew where to start. A guest's TV, a front desk printer, a back office report that wouldn't load, all in the same hour. I had to learn a new rhythm, a new language, and a new way of thinking. But I figured out pretty quickly that my old habits, being methodical and tracing problems back to the source, were actually useful here.</p>
+        <p class="body-main">So I started with what I knew best: making work more efficient. One of the first things I built was an administration flow that cut out the endless back and forth, plus an inventory balancing system that made stock counts faster and way less painful. It wasn't glamorous. But when the team finally stopped chasing paperwork, I knew I was in the right place.</p>
+        <p class="body-main">Then I thought, why not let AI carry some of the weight? That's how Wall-E was born. He's the AI administrator of our hotel, and yes, I named him after the little robot who just keeps doing his job. Wall-E reminds the team about tasks, helps me build and maintain a web-based kanban reminder for IT operations, and keeps inventory in check. He runs on Hermes, an open-source agent application, powered by Anthropic's Sonnet model. In simple terms, he can read a request, understand what needs to happen, write code, organize information, and follow up when something is forgotten. The boring, repetitive stuff now lands on him, and I get my head back for real problems.</p>
+        <p class="body-main">Now, I know what you're thinking. "AI in a hotel? What about data breaches?" Fair question, and I ask it myself every day. So here's my rule: I decide what Wall-E gets to see. Guest names, IP addresses, and credentials never go in. Period. What I share stops at inventory, in simplified fields like item, quantity, and location. I also don't take the provider's data policy on blind faith. I read it, I check the settings, and I treat the privacy side as my responsibility as the user. AI makes the work lighter, but keeping the data safe is still on me.</p>
+
+        <!-- ===== GALLERY (auto slide). Ganti src, alt, dan caption dengan foto project kamu. ===== -->
+        <section class="project-gallery" aria-label="Project gallery">
+          <p class="eyebrow">Gallery</p>
+          <div class="carousel" data-carousel data-interval="4500" aria-label="IT Operations Handbook gallery">
+            <div class="carousel-track">
+
+              <figure class="carousel-slide slide-photo">
+                <img src="./image/Topology Project.png" alt="Wall-E kanban reminder board">
+                <figcaption><strong>AI Topology</strong><span>AI Topology, that run behind the team.</span></figcaption>
+              </figure>
+
+              <figure class="carousel-slide slide-photo">
+                <img src="./image/AI.png" alt="Inventory balancing sheet">
+                <figcaption><strong>Meet Wall-E</strong><span>Administrations, Inventory & Task Reminder, Part of our team. </span></figcaption>
+              </figure>
+
+              <figure class="carousel-slide slide-photo">
+                <img src="image/Web reminder.png" alt="Administration flow" style="object-fit:contain; background:#08090b;">
+                <figcaption><strong>Administration Flow & Efficiency Work</strong><span>Less action, High impact.</span></figcaption>
+              </figure>
+
+              <figure class="carousel-slide slide-photo">
+                <img src="image/Wall E x ME.png" alt="Wall-E AI administrator">
+                <figcaption><strong>Meet Wall-E</strong><span>The AI admin that keeps things moving.</span></figcaption>
+              </figure>
+
+            </div>
+          </div>
+        </section>
+
+        <ul class="tags">
+          <li>Infrastructure</li>
+          <li>Documentation</li>
+          <li>Support</li>
+        </ul>
+        <!-- Opsional: tombol ke demo / repo. Hapus tanda komentar lalu isi link-nya.
+        <a class="btn btn-dark" href="https://contoh.com" target="_blank" rel="noopener">Open project &#8599;</a>
+        -->
+      </div>
+    </article>
+  </main>
+
+  <!-- ===== FOOTER (sama di semua halaman) ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <h2 class="footer-title">Let&rsquo;s connect.</h2>
+        <p>Have a project, a collaboration idea, or just want to say hi?</p>
+      </div>
+      <!-- Contact button: ganti mailto: dengan link WhatsApp / LinkedIn jika mau -->
+      <a class="btn btn-dark" href="https://www.linkedin.com/in/alberik-stephan-279286261/">Lets Connect! <svg class="icon" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+    <div class="container footer-bottom">
+      <span>&copy; <span data-year>2026</span> Alberik Stephan</span>
+      <span>Denpasar, Bali</span>
+    </div>
+  </footer>
+
+  <script src="js/common.js"></script>
+</body>
+</html>
